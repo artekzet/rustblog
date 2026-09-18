@@ -1,0 +1,6 @@
+[advisories]
+ignore = [
+    # actix-http currently depends on h2 0.3.27.
+    # RUSTSEC-2026-0258 is fixed only in h2 >= 0.4.16.
+    "RUSTSEC-2026-0258",
+]
